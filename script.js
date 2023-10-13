@@ -10,10 +10,10 @@ function calculateGPA() {
   // Calculate the weight of each lesson
   var weight1 = 10/58;
   var weight2 = 10/58;
-  var weight3 = 8/58;
-  var weight4 = 12/58;
-  var weight5 = 10/58;
-  var weight6 = 8/58;
+  var weight3 = 10/58;
+  var weight4 = 9/58;
+  var weight5 = 9/58;
+  var weight6 = 10/58;
   
   // Calculate the weighted average of the first 6 lessons
   var weightedAvg = (lesson1 * weight1) + (lesson2 * weight2) + (lesson3 * weight3) + (lesson4 * weight4) + (lesson5 * weight5) + (lesson6 * weight6);
